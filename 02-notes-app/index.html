@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App | CF9 Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./main.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="w-[350px] h-[600px] my-10 mx-auto bg-white shadow-2xl border border-gray-300 rounded-lg overflow-hidden flex flex-column flex-wrap">
+
+        <header class="w-full">
+            <div class="flex justify-center items-center bg-gray-50 border-b border-gray-200">
+                <span id="datetxt" class="w-full text-center py-3 font-mono text-red-700 text-sm"></span>
+            </div>
+        </header>
+
+        <main class="w-full flex-grow overflow-hidden">
+            <div id="notesWrapper" class="h-[480px] overflow-auto bg-white">
+                </div>
+        </main>
+
+        <footer class="w-full mt-auto bg-gray-50 border-t border-gray-200 p-3">
+            <div class="flex justify-between items-center gap-2">
+                <input type="text" id="inputNote" 
+                       class="flex-grow h-10 px-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400" 
+                       placeholder="Add a new note..."> 
+                
+                <button type="button" id="addNoteBtn" 
+                        class="w-10 h-10 bg-blue-500 text-white rounded-full text-xl font-bold hover:bg-blue-600 active:scale-95 transition-all shadow-md">
+                    +
+                </button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
