@@ -1,0 +1,23 @@
+.root {
+    height: 90vh;
+}
+
+.color-green {
+    color: #198754;
+}
+
+.color-red {
+    color: #dc3545;
+}
+
+.color-black {
+    color: #212529;
+}
+
+#counter {
+    transition: color 0.3s ease;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
