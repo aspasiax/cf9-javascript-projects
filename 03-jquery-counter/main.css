@@ -1,0 +1,19 @@
+.root {
+    height: 90vh;
+}
+
+.color-green {
+    color: #28a745; 
+}
+
+.color-red {
+    color: #dc3545;
+}
+
+.color-black {
+    color: #343a40;
+}
+
+#counter {
+    transition: color 0.2s ease-in-out;
+}
