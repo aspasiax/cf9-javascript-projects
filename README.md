@@ -1,4 +1,4 @@
-# CF9 JavaScript Projects
+# Coding Factory 9 AUEB JavaScript Projects
 
 This repository contains a collection of projects developed during the **Coding Factory 9** professional certification program. Each project demonstrates core JavaScript principles and modern web development practices.
 
